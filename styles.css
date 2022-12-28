@@ -12,13 +12,13 @@ h2 {
 }
 
 body {
-    background-color: lightslategray;
+    background-image: linear-gradient( to right, white 10%, pink );
 }
 
 .main {
     border: 1px solid black;
     border-radius: 15px;
-    background-color: pink;
+    background-color: #8abad3;
     width: 98.5%;
     height: 70vh;
     padding: 15px;
