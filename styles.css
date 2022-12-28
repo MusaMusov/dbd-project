@@ -1,0 +1,85 @@
+h1{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    position: relative;
+    margin-left: 35px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+.main {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: pink;
+    width: 98.5%;
+    height: 70vh;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+    
+}
+
+.image {
+    display: block;
+    position: relative;
+    max-width: 20%;
+    left: 75%;
+}
+
+#plague {
+    display: block;
+    position: relative;
+    max-width: 90%;
+    left: 10%;
+}
+
+
+/* device optimization */
+
+@media (max-width: 1420px) {
+    .image {
+        position: relative;
+        left: 70%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .image {
+        position: relative;
+        left: 70%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 992px) {
+    .image {
+        position: relative;
+        left: 69%;
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .image {
+        position: relative;
+        left: 60%;
+        width: 35%;
+    }
+}
+
+@media (max-width: 576px) {
+    .image {
+        position: relative;
+        left: 30%;
+        width: 50%;
+    }
+}
