@@ -12,7 +12,7 @@ h2 {
 }
 
 body {
-    background-image: linear-gradient( to right, white 10%, pink );
+    background-image: linear-gradient( to right, white, pink );
 }
 
 .main {
@@ -38,6 +38,34 @@ body {
     position: relative;
     max-width: 90%;
     left: 10%;
+}
+
+#nurse {
+    display: block;
+    position: relative;
+    max-width: 90%;
+    left: 10%;
+}
+
+#hag {
+    display: block;
+    position: relative;
+    max-width: 80%;
+    left: 20%;
+}
+
+#sadako {
+    display: block;
+    position: relative;
+    max-width: 90%;
+    left: 10%;
+}
+
+#nemesis {
+    display: block;
+    position: relative;
+    max-width: 90%;
+    left: 13%;
 }
 
 #booba {
