@@ -11,18 +11,79 @@ h2 {
     font-family: "Roboto", sans-serif;
 }
 
+h3 {
+    font-size: 20px;
+}
+
+#arrow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2%;
+    max-width: 4%;
+}
+
 body {
     background-image: linear-gradient( to right, white, pink );
 }
 
-.main {
+button {
+    font-weight: bold;
+    color: black;
     border: 1px solid black;
+    height: 4vh ;
+    width: 10vh;
+    border-radius: 5px;
+    background-color: #8abad3;
+}
+
+#icon {
+    display: inline;
+    position: relative;
+    left: 1.5%;
+    max-width: 5%;
+}
+
+#family {
+    max-width: 40%;
+    float: right;
+    margin-right: 8%;
+     border:1px solid black;
+     border-left:150px solid transparent;
+     border-right:150px solid transparent;
+}
+
+#navmenu {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #8abad3 ;
+    width: 20%;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 8%;
+}
+
+#nav {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+
+.main {
+    border: 3px solid black;
     border-radius: 15px;
     background-color: #8abad3;
-    width: 98.5%;
+    width: 96%;
     height: 70vh;
     padding: 15px;
     margin: 15px;
+    margin-left: 2%;
     box-sizing: border-box;
 }
 
@@ -73,6 +134,39 @@ body {
     position: relative;
     width: 20%;
     left: 75%;
+}
+
+/* links */
+
+
+
+
+a:link { 
+    text-decoration: none; 
+    color: black
+}
+    
+a:visited {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: none; 
+    color: black
+}
+
+a:active { 
+    text-decoration: none; 
+    color: black
+}
+
+
+
+
+#dance {
+    position: relative;
+    margin-left: 50%;
 }
 
 /* device optimization */
