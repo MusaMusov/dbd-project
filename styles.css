@@ -1,30 +1,47 @@
 h1{
-    font-size: 45px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-size: 55px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #8b2539;
 }
 
 h2 {
     position: relative;
-    margin-left: 35px;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
+    margin-left: 60px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "playfair display", sans-serif;
 }
 
 h3 {
     font-size: 20px;
+    margin-left: 3%;
 }
+
 
 #arrow {
     position: fixed;
-    bottom: 0;
-    right: 0;
-    margin-right: 2%;
-    max-width: 4%;
+    bottom: -200px;
+    right: -100px;
+    margin-right: 0.1%;
+    max-width: 15%;
+    animation: float 3s alternate-reverse infinite;
+    z-index: 999;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px)
+    }
+    100% {
+        transform: translateY(10px);
+    }
+
 }
 
 body {
-    background-image: linear-gradient( to right, white, pink );
+    background-color: #e3e2df;
 }
 
 button {
@@ -34,7 +51,7 @@ button {
     height: 4vh ;
     width: 10vh;
     border-radius: 5px;
-    background-color: #8abad3;
+    background-color: rgb(139, 0, 0);
 }
 
 #icon {
@@ -56,7 +73,7 @@ button {
 #navmenu {
     border: 3px solid black;
     border-radius: 15px;
-    background-color: #8abad3 ;
+    background-color: #950740d0 ;
     width: 20%;
     padding: 15px;
     margin: 15px;
@@ -78,7 +95,7 @@ button {
 .main {
     border: 3px solid black;
     border-radius: 15px;
-    background-color: #8abad3;
+    background-color: #950740d0;
     width: 96%;
     height: 70vh;
     padding: 15px;
@@ -104,8 +121,9 @@ button {
 #nurse {
     display: block;
     position: relative;
-    max-width: 90%;
-    left: 10%;
+    max-width: 20%;
+    bottom: 40%;
+    left: 75%;
 }
 
 #hag {
@@ -135,6 +153,34 @@ button {
     width: 20%;
     left: 75%;
 }
+
+#billyPic {
+    display: block;
+    position: relative;
+    width: 20%;
+    left: 75%;
+    bottom: 140px;
+}
+
+#trapper {
+    display: block;
+    position: relative;
+    width: 50%;
+    left: 50%;
+    bottom: 53%;
+}
+
+#wraith {
+    position: relative;
+    width: 20%;
+    left: 75%;
+    margin-top: -14%;
+}
+
+
+/* Builds */
+
+
 
 /* links */
 

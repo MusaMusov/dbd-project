@@ -9,15 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Rampart+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div>
-        <a href="#icon"><img id="arrow" src="./images/favpng_arrow-icon-c-icon-up-icon.png" alt=""></a>
+        <a href="#icon"><img id="arrow" src="./images/red arrow.png" alt=""></a>
     </div>
 
     <div id="icon">
-        <img id="icon" src="./images/huntress icon.png" alt=""> 
+        <img id="icon" src="./images/huntress icon cropped.png" alt=""> 
     </div>
 
     <nav id="nav">
@@ -35,7 +39,7 @@
 <section>
 <div>
     <div>
-        <img id="family" src="./images/allkillers.jpg" alt="">
+        <img id="family" src="./images/family.png" alt="">
     </div>
     <div id="navmenu">
             <ul type="none">
@@ -102,17 +106,100 @@
 
     <div id="trapper-nav" class="main">
         <h2>Trapper</h2>
+        <h3>Build 1</h3>
+        <br>
+        <div>
+            <div id="trapperBuildOne">
+                <span class="hoverTextBrutal" data-hover="Increases the Action speed of breaking Pallets and Breakable Walls, and damaging Generators by 10/15/20 %.">
+                    <img src="./images/BrutalStrength.webp" alt="">
+                </span>
+
+                <span class="hoverTextNWA" data-hover=" For each Survivor you hook for the first time, No Way Out gains 1 Token.
+            Once the Exit Gates have been powered, No Way Out activates:
+                When a Survivor interacts with an Exit Gate Switch, you receive a Loud Noise Notification and The Entity blocks both Exit Gates for 12 seconds and an additional 6/9/12 seconds per Token in your possession, up to a combined maximum of 36/48/60 seconds."> 
+                    <img id="nwa" src="./images/NoWayOut.webp" alt=""> 
+                </span>
+
+                <span class="hoverTextFireUp" data-hover="Each time a Generator is completed, Fire Up grows in power.
+                Gain a stack-able 3/3.5/4 % Action Speed bonus to picking-up and dropping Survivors, breaking Pallets and Breakable Walls,
+                 damaging Generators, and vaulting Windows, up to a maximum of 15/17.5/20%.">
+                    <img src="./images/FireUp.webp" alt="">
+                </span>
+
+                <span class="hoverTextSTBFL" data-hover="Each time you hit a Survivor other than your Obsession with a Basic Attack, Save the Best for Last gains 1 Token,
+                 up to a maximum of 8 Tokens:
+                Gain a stack-able 5% Cool-down reduction on successful attacks per Token, up to a maximum of 40%.
+            Each time you hit your Obsession with a Basic Attack, Save the Best for Last loses 4/3/2 Tokens.
+                When the Obsession is sacrificed or killed, you can neither gain nor lose any more Tokens.">
+                    <img src="./images/SaveTheBestForLast.webp" alt="">
+                </span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <span id="trapperAddon1" data-hover="Start with 1 additional Bear Trap.
+                Increases the Bear Trap Carrying capacity by 1 Bear Trap.">
+                    <img src="./images/FulliconAddon_trapperBag.webp" alt="">
+                </span>
+                <span id="trapperAddon2" data-hover="    Increases the Bear Trap Rescue and Escape times by +25%.
+                Increases the Bear Trap Setting speed by +50%.">
+                    <img src="./images/FulliconAddon_fasteningTools.webp" alt="">
+                </span>
+            </div>
+        </div>
         <div id="trapper">
-            <img class="image" src="./images/The_Trapper_DbD.webp" alt="">
+            <img id="trapper" src="./images/The_Trapper_DbD.webp" alt="">
         </div>
     </div>
 
+
+
+
+
+
     <div id="wraith-nav" class="main">
         <h2>Wraith</h2>
+        <h3>Build 1</h3>
+        <br>
+        <div id="wraithBuildOne">
+            <span class="hoverTextNWA" data-hover=" For each Survivor you hook for the first time, No Way Out gains 1 Token.
+            Once the Exit Gates have been powered, No Way Out activates:
+                When a Survivor interacts with an Exit Gate Switch, you receive a Loud Noise Notification and The Entity blocks both Exit Gates for 12 seconds and an additional 6/9/12 seconds per Token in your possession, up to a combined maximum of 36/48/60 seconds."> 
+                <img id="nwa" src="./images/NoWayOut.webp" alt=""> 
+            </span>
+
+            <span class="hoverTextSloppy" data-hover="Wounds inflicted by Basic Attacks cause Survivors to suffer from the Haemorrhage and Mangled Status Effect:
+            Increases the Bleeding frequency by 50/75/100 %.
+            Increases the Regression rate at which partial Healing Progression is lost through Haemorrhage by 15/20/25 %.
+            Both Status Effects are removed once the Survivor is fully healed.">
+                <img src="./images/SloppyButcher.webp" alt="">
+            </span>
+
+            <span class="hoverTextBrutal" data-hover="Increases the Action speed of breaking Pallets and Breakable Walls, and damaging Generators by 10/15/20 %.">
+                <img src="./images/BrutalStrength.webp" alt="">
+            </span>
+
+            <span class="hoverTextDeadlock" data-hover="Whenever a Generator is completed, The Entity blocks the Generator with the most progression for 20/25/30 seconds.
+            The Aura of the blocked Generator is revealed to you in white during this time.">
+                <img src="./images/Deadlock.webp" alt="">
+            </span>
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <span id="wraithAddon1" data-hover="Increases the Action speeds for breaking Breakable Walls and Pallets, damaging Generators, and vaulting Windows
+            by +40% while cloaked">
+                <img src="./images/FulliconAddon_shadowDance-White.webp" alt=".">
+            </span>
+
+            <span id="wraithAddon2" data-hover="Increases Cloaked Movement Speed by +7%.">
+                <img src="./images/FulliconAddon_windstorm-White.webp" alt="">
+            </span>
+        </div>
         <div>
-            <img class="image" src="./images/wraith.jpg" alt="">
+            <img id="wraith" src="./images/wraith.jpg" alt="">
         </div>
     </div>
+
+
+
+
 
     <div id="freddy-nav" class="main">
         <h2>Freddy</h2>
@@ -123,8 +210,42 @@
 
     <div id="billy-nav" class="main">
         <h2>Hillbilly</h2>
+        <h3>Build 1</h3>
         <div>
-            <img class="image" src="./images/billy.jpg" alt="">
+            <br>
+            <div id="billyBuildOne">
+            <span class="hoverTextLethal" data-hover="At the start of the Trial, the auras of all Survivors are revealed to you for 7/8/9 seconds.
+            Extends the duration of a Survivor's Aura being revealed to you by +2 seconds."> 
+                <img id="lethal" src="./images/LethalPursuer.webp" alt=""> 
+            </span>
+
+            <span class="hoverTextBBQ" data-hover="After hooking a Survivor, all Survivors who are at least 60/50/40 metres away from that Hook
+            have their auras revealed to you for 4 seconds."> 
+               <img id="bbq" src="./images/BarbecueAndChilli.webp" alt=""> 
+           </span>
+
+           <span class="hoverTextBam" data-hover=" After vaulting a window,
+           Bamboozle calls upon The Entity to block that Window for the next 8/12/16 seconds.
+           Blocked Windows cannot be vaulted by Survivors.
+           Increases your general Vaulting speed by 5/10/15 %."> 
+               <img id="nwa" src="./images/Bamboozle.webp" alt=""> 
+            </span>
+
+            <span class="hoverTextNWA" data-hover=" For each Survivor you hook for the first time, No Way Out gains 1 Token.
+            Once the Exit Gates have been powered, No Way Out activates:
+                When a Survivor interacts with an Exit Gate Switch, you receive a Loud Noise Notification and The Entity blocks both Exit Gates for 12 seconds and an additional 6/9/12 seconds per Token in your possession, up to a combined maximum of 36/48/60 seconds."> 
+                <img id="nwa" src="./images/NoWayOut.webp" alt=""> 
+            </span>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <span id="billyAddon1" data-hover="Allows you to continue the Chainsaw Sprint after breaking a pallet or Breakable Wall with the Chainsaw.
+                Survivors hit with the Chainsaw within 5 seconds of breaking a Pallet or a Breakable Wall are only damaged for a single Health State">
+                <img src="./images/FulliconAddon_loProChains.webp" alt="">
+            </span>
+                <span id="billyAddon2" data-hover="    Increases the Movement speed during a Chainsaw Sprint by +20%.
+                Reduces the Heat gained from charging the Chainsaw by -14%.
+                Increases the Charge time of the Chainsaw by +12%."><img src="./images/FulliconAddon_doomEngravings.webp" alt=""></span>
+            </div>
+            <img id="billyPic" src="./images/billy.jpg" alt="">
         </div>
     </div>
 
@@ -144,9 +265,44 @@
 
     <div id="nurse-nav" class="main">
         <h2>Nurse</h2>
-        <div id="nurse">
-            <img class="image" src="./images/nurse.jpg" alt="">
+        <h3>Build 1</h3>
+        <div id="nurseFirstBuild">
+            <span class="hoverTextCorrupt" data-hover="Your prayers invoke a dark power that meddles with the Survivors' chances of survival.
+            At the start of the Trial, the 3 Generators located farthest from you are blocked by The Entity for 80/100/120 seconds."> 
+                <img src="./images/CorruptIntervention.webp" alt=""> 
+            </span>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <span class="hoverTextLethal" data-hover="At the start of the Trial, the auras of all Survivors are revealed to you for 7/8/9 seconds.
+            Extends the duration of a Survivor's Aura being revealed to you by +2 seconds."> 
+                <img id="lethal" src="./images/LethalPursuer.webp" alt=""> 
+            </span>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <span class="hoverTextBBQ" data-hover="After hooking a Survivor, all Survivors who are at least 60/50/40 metres away from that Hook
+             have their auras revealed to you for 4 seconds."> 
+                <img id="bbq" src="./images/BarbecueAndChilli.webp" alt=""> 
+            </span>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <span class="hoverTextNWA" data-hover=" For each Survivor you hook for the first time, No Way Out gains 1 Token.
+            Once the Exit Gates have been powered, No Way Out activates:
+                When a Survivor interacts with an Exit Gate Switch, you receive a Loud Noise Notification and The Entity blocks both Exit Gates for 12 seconds and an additional 6/9/12 seconds per Token in your possession, up to a combined maximum of 36/48/60 seconds."> 
+                <img id="nwa" src="./images/NoWayOut.webp" alt=""> 
+            </span>
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+            <span id="nurseAddon1" data-hover="Increases the maximum range of the Blink by +6 metres. 
+            Increases the Charge time of the Blink by +30%. 
+            Increases the duration of the Blink by +30%.">
+                <img src="./images/FulliconAddon_kavanaghsLastBreath.webp" alt="">
+            </span>
+
+            <span id="nurseAddon2" data-hover="Reduces Fatigue duration from Blinks by -0.25 seconds.">
+                <img src="./images/FulliconAddon_ataxicRespiration.webp" alt="">
+            </span>
         </div>
+        
+            <img id="nurse" src="./images/nurse.jpg" alt="">
+        
     </div>
 
     <div id="hag-nav" class="main">
