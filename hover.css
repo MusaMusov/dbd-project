@@ -1,0 +1,520 @@
+.hoverTextCorrupt {
+    position: relative;
+  }
+  
+  .hoverTextCorrupt:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+  .hoverTextCorrupt:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+
+.hoverTextNWA {
+    position: relative;
+  }
+  
+.hoverTextNWA:before {
+    display: block;
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 180px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    transition: opacity 0.5s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  
+  }
+  
+.hoverTextNWA:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.hoverTextBBQ {
+    position: relative;
+  }
+  
+.hoverTextBBQ:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextBBQ:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+
+.hoverTextLethal {
+    position: relative;
+    
+  }
+  
+.hoverTextLethal:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextLethal:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hoverTextBam {
+    position: relative;
+    
+  }
+  
+.hoverTextBam:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextBam:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hoverTextSloppy {
+    position: relative;
+    
+  }
+  
+.hoverTextSloppy:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 170px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextSloppy:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  .hoverTextDeadlock {
+    position: relative;
+    
+  }
+  
+.hoverTextDeadlock:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextDeadlock:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+
+  .hoverTextBrutal {
+    position: relative;
+    
+  }
+  
+.hoverTextBrutal:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextBrutal:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hoverTextFireUp {
+    position: relative;
+    
+  }
+  
+.hoverTextFireUp:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextFireUp:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+.hoverTextSTBFL {
+    position: relative;
+    
+  }
+  
+.hoverTextSTBFL:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 170px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hoverTextSTBFL:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+
+
+
+
+/* ADDONS */
+
+#nurseAddon1 {
+    position: relative;
+    
+  }
+  
+#nurseAddon1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+#nurseAddon1:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #nurseAddon2 {
+    position: relative;
+    
+  }
+  
+#nurseAddon2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+#nurseAddon2:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #billyAddon1 {
+    position: relative;
+    
+  }
+  
+#billyAddon1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+#billyAddon1:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #billyAddon2 {
+    position: relative;
+    
+  }
+  
+#billyAddon2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+#billyAddon2:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+  #wraithAddon1 {
+    position: relative;
+    
+}
+  
+#wraithAddon1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+#wraithAddon1:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+  #wraithAddon2 {
+    position: relative;
+}
+  
+#wraithAddon2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+#wraithAddon2:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #trapperAddon1 {
+    position: relative;
+    
+}
+  
+#trapperAddon1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+#trapperAddon1:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+#trapperAddon2 {
+    position: relative;
+    
+}
+  
+#trapperAddon2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #e3e2df;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+#trapperAddon2:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
